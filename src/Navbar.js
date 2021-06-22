@@ -6,7 +6,12 @@ const  Navbar= () => {
             <h1>To Do List</h1>
             <div className="links">
                 <a href="/">Home</a>
-                <a href="/create">Create new Task</a>
+                <a href="/create" style ={{
+                    color:"white",
+                    backgroundColor:"#f1356d",
+                    borderRadius: "8px"
+
+                }}>Create new Task</a>
 
             </div>
         </nav>
